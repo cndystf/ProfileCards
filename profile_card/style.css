@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Numans', sans-serif;
+    margin:0;
+    padding:0;
+}
+/*using rem value unit  because they more stable for making responsive web*/
+body {
+    margin: 2rem;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow: 0 2px 6px 0;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+    width: 250px;
+}
+
+.cover {   
+    background-image: url("pic/nc.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 10rem;
+    width: 100%;
+    position: absolute;
+}
+
+.profile-pic {
+    clip-path: circle(50% at center);
+    margin-top: 4.5rem;
+    width: 128px;
+}
+
+.character-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.character-desc {
+    font-size: 0.9rem;
+    margin: 1rem 2rem;
+}
